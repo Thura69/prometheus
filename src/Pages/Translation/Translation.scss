@@ -1,0 +1,82 @@
+.translation{
+    display: flex;
+    
+    .sidebar{
+        flex:2;
+        border:2px solid red;
+        display:none;
+    }
+    .translation__container{
+        flex:11;
+        margin-top: var(--header-height);
+
+
+
+
+    .translation__wrapper{
+        .translation__wrapper__container{
+            position: relative;
+            
+            
+            .translation__wrapper__img{
+            max-width: 500px;
+            height: 500px;
+            @media screen and (min-width:600px){
+            max-width: 300px;
+            height: 500px;
+
+                
+                }
+            }
+            .translation__wrapper__title{
+            background-color: rgba(255, 255, 255, 0.63);
+            position: absolute;
+            top:40%;
+            width: 100%;
+            max-width: 500px;
+            text-align: center;
+            padding:1rem;
+            }
+        
+            }
+            .translation__quote{
+                margin:1rem 0;
+            }
+    }
+    .translation__books__container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    
+
+    .card{
+    @media screen and (min-width:600px){
+        max-width: 300px;
+        height:auto;
+        margin: 0 auto;
+
+            
+            }
+
+   
+
+        .translation__card__img{
+            box-shadow: 0 4px 6px rgb(180, 121, 10);
+            border-radius: 0.3rem;
+        }
+    
+        .translation__card__name{
+            font-size: 10px;
+            font-weight: lighter;
+            color:black;
+            @media screen and (min-width:600px){
+            font-size: 15px;
+                    
+                    }
+           
+        }
+    }
+   
+    }
+      
+    }
+}

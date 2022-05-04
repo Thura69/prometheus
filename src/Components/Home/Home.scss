@@ -1,0 +1,17 @@
+.home{
+    display: flex;
+
+    .sidebar{
+        flex:2;
+        display: none;
+    }
+
+    .home__container{
+        position: relative;
+        flex:11;
+        .accessory{
+          
+        }
+
+    }
+}

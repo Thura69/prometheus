@@ -1,0 +1,22 @@
+.AuthorsPage{
+    display: flex;
+
+    .sidebar{
+        flex:2;
+        display: none;
+    }
+
+    .AuthorsPage__container{
+        position: relative;
+        flex:11;
+    .AuthorsPage__app{
+        height: calc(100vh - var(--header-height));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+    }
+
+    }
+}

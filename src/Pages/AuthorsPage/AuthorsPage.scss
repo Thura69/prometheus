@@ -1,0 +1,23 @@
+.ContactUsbar{
+    display: flex;
+
+    .sidebar{
+        flex:2;
+        display: none;
+    }
+
+    .ContactUsbar__container{
+        position: relative;
+        flex:11;
+    .ContactUsbar__app{
+        height: calc(100vh - var(--header-height));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        letter-spacing:2px;
+
+    }
+
+    }
+}
